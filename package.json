@@ -1,0 +1,16 @@
+{
+    "name": "your-project-name",
+    "version": "1.0.0",
+    "description": "A simple Node.js project to read JSON files",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "mongodb": "^6.15.0"
+    },
+    "author": "Vinicius",
+    "license": "MIT"
+}
