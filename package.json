@@ -9,7 +9,6 @@
         "rag": "node lecture_4_json/index.js"
     },
     "dependencies": {
-        "chromadb": "^1.8.1",
         "dotenv": "^16.4.7",
         "firebase": "^10.14.1",
         "mongodb": "^6.15.0",
