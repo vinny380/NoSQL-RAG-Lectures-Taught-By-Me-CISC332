@@ -1,7 +1,7 @@
 import { OpenAI } from 'openai';
 import pdf from 'pdf-parse/lib/pdf-parse.js';
 import fs from 'fs';
-import dotenv from 'dotenv';
+import 'dotenv/config';
 import path from 'path';
 import readline from 'readline';
 import { fileURLToPath } from 'url';
@@ -10,9 +10,6 @@ import { SimpleVectorStore } from './vector-store.js';
 // Get the directory path of the current module
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-// Load environment variables
-dotenv.config();
 
 // Initialize OpenAI client
 const openai = new OpenAI({
