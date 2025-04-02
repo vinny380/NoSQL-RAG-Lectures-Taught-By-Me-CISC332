@@ -1,15 +1,20 @@
 {
     "name": "your-project-name",
     "version": "1.0.0",
-    "description": "A simple Node.js project to read JSON files",
+    "description": "A Node.js project demonstrating Firebase Firestore functionality and RAG system",
     "main": "main.js",
     "type": "module",
     "scripts": {
-        "start": "node main.js"
+        "start": "node main.js",
+        "rag": "node lecture_4_json/index.js"
     },
     "dependencies": {
+        "chromadb": "^1.8.1",
         "dotenv": "^16.4.7",
-        "mongodb": "^6.15.0"
+        "firebase": "^10.14.1",
+        "mongodb": "^6.15.0",
+        "openai": "^4.28.0",
+        "pdf-parse": "^1.1.1"
     },
     "author": "Vinicius",
     "license": "MIT"
